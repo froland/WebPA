@@ -24,7 +24,7 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../..');
 $dotenv->load();
 
 // Set the correct timezone for your server.
-date_default_timezone_set('Europe/London');
+date_default_timezone_set('Europe/Brussels');
 
 // Configuration
 
