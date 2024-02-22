@@ -1,0 +1,3 @@
+FROM mysql:8
+COPY ./src/install/webpa2_tables.sql /docker-entrypoint-initdb.d/01.sql
+COPY ./src/install/webpa2_administrator.sql /docker-entrypoint-initdb.d/02.sql
